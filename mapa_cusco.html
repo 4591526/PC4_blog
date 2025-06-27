@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d624adce8cddf2fa549da2a06fe0416a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_d624adce8cddf2fa549da2a06fe0416a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_d624adce8cddf2fa549da2a06fe0416a = L.map(
+                "map_d624adce8cddf2fa549da2a06fe0416a",
+                {
+                    center: [-13.5, -72.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87f6acbf5a519310c6eb74bbba6f7bc0 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_87f6acbf5a519310c6eb74bbba6f7bc0.addTo(map_d624adce8cddf2fa549da2a06fe0416a);
+        
+    
+            var marker_f6aea2637611379734aee24c510a7561 = L.marker(
+                [-13.1631, -72.545],
+                {
+}
+            ).addTo(map_d624adce8cddf2fa549da2a06fe0416a);
+        
+    
+            var icon_de554b3b6af21e26d744971e4f880e2a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "flag",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ee504772a7cec1173ce283cb4a32bcf3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37529ffa42f7ad56bca132ad1c015281 = $(`<div id="html_37529ffa42f7ad56bca132ad1c015281" style="width: 100.0%; height: 100.0%;"><strong>Machu Picchu</strong><br>Ciudadela inca declarada Patrimonio de la Humanidad. Uno de los destinos más visitados del mundo.</div>`)[0];
+                popup_ee504772a7cec1173ce283cb4a32bcf3.setContent(html_37529ffa42f7ad56bca132ad1c015281);
+            
+        
+
+        marker_f6aea2637611379734aee24c510a7561.bindPopup(popup_ee504772a7cec1173ce283cb4a32bcf3)
+        ;
+
+        
+    
+    
+            marker_f6aea2637611379734aee24c510a7561.bindTooltip(
+                `<div>
+                     Haz clic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f6aea2637611379734aee24c510a7561.setIcon(icon_de554b3b6af21e26d744971e4f880e2a);
+            
+    
+            var marker_dc15b8210e2a5a51c6081061ec389a13 = L.marker(
+                [-13.8691, -71.3026],
+                {
+}
+            ).addTo(map_d624adce8cddf2fa549da2a06fe0416a);
+        
+    
+            var icon_0acf420fb491421b164d82a2ad03d095 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "purple",
+  "iconColor": "white",
+  "icon": "star",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_36c6005f3242548bb6e6b2918299d6b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_385835d0764378a8f900ad82e09a0a4b = $(`<div id="html_385835d0764378a8f900ad82e09a0a4b" style="width: 100.0%; height: 100.0%;"><strong>Cerro de los Siete Colores</strong><br>Montaña Vinicunca, famosa por sus franjas de colores naturales en los Andes peruanos.</div>`)[0];
+                popup_36c6005f3242548bb6e6b2918299d6b2.setContent(html_385835d0764378a8f900ad82e09a0a4b);
+            
+        
+
+        marker_dc15b8210e2a5a51c6081061ec389a13.bindPopup(popup_36c6005f3242548bb6e6b2918299d6b2)
+        ;
+
+        
+    
+    
+            marker_dc15b8210e2a5a51c6081061ec389a13.bindTooltip(
+                `<div>
+                     Haz clic
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dc15b8210e2a5a51c6081061ec389a13.setIcon(icon_0acf420fb491421b164d82a2ad03d095);
+            
+    
+            var poly_line_131ff3eb7f284151cffc666894385f57 = L.polyline(
+                [[-13.1631, -72.545], [-13.8691, -71.3026]],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "red", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 0.8, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_d624adce8cddf2fa549da2a06fe0416a);
+        
+    
+            poly_line_131ff3eb7f284151cffc666894385f57.bindTooltip(
+                `<div>
+                     Ruta turística
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            tile_layer_87f6acbf5a519310c6eb74bbba6f7bc0.addTo(map_d624adce8cddf2fa549da2a06fe0416a);
+        
+    
+                marker_f6aea2637611379734aee24c510a7561.setIcon(icon_de554b3b6af21e26d744971e4f880e2a);
+            
+    
+                marker_dc15b8210e2a5a51c6081061ec389a13.setIcon(icon_0acf420fb491421b164d82a2ad03d095);
+            
+</script>
+</html>
