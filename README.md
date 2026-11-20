@@ -1,5 +1,5 @@
 # PC4_blog
-# Nombre de los integrantes::
+# Nombre de los integrantes:
 -
 -
 -
