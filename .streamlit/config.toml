@@ -2,6 +2,6 @@
 primaryColor = "#99181c"
 backgroundColor = "#ececec"
 secondaryBackgroundColor = "#E8E3D9"
-font = "Verdana"
-codeFont = "JetBrains Mono:https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap"
+font = "Raleway"
+textFont = "Raleway:https://fonts.googleapis.com/css2?family=Raleway&display=swap"
 textColor = "#2B3E78"
